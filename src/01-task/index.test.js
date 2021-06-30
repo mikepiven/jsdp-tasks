@@ -1,4 +1,4 @@
-import { maxItemAssociation } from "./src/index";
+import { maxItemAssociation } from "./index";
 
 describe("maxItemAssociation", () => {
   it("Initial requirements", () => {
