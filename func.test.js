@@ -1,5 +1,13 @@
-import maxItemAssociation from "./../index";
+import { maxItemAssociation } from "./src/index";
 
-test("adds 1 + 2 to equal 3", () => {
-  expect(maxItemAssociation(1, 2)).toBe(3);
+describe("maxItemAssociation", () => {
+  it("Initial requirements", () => {
+    const data = [
+      ["a", "b"],
+      ["a", "c"],
+      ["d", "e"]
+    ];
+    const result = ["a", "b", "c"];
+    expect(maxItemAssociation(data)).toStrictEqual(result);
+  });
 });

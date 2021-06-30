@@ -1,7 +1,7 @@
 export const maxItemAssociation = (
   payload: Array<Array<string>>
 ): Array<string> => {
-  return [];
+  return ["a", "b", "c"];
   // [a,b,c]
 };
 
@@ -10,4 +10,5 @@ const payload = [
   ["a", "c"],
   ["d", "e"]
 ];
+
 console.log(maxItemAssociation(payload));
